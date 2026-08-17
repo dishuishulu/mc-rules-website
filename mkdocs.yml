@@ -1,0 +1,42 @@
+site_name: DSMP 服务器规则手册
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - 关于本服: index.md
+  - 服务器规则:
+    - 基本游玩规则: rules/gameplay.md
+    - 建筑规则: rules/building.md
+    - 养殖规则: rules/farming.md
+    - 交流规则: rules/communication.md
+    - 封禁规则: rules/punishment.md
+  - 建设方案: roadmap.md
+  - 腐竹与支持: about-admin.md
+  - 常用指令: commands.md
+  - 后记: epilogue.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
