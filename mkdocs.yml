@@ -29,8 +29,10 @@ nav:
     - 养殖规则: rules/farming.md
     - 交流规则: rules/communication.md
     - 封禁规则: rules/punishment.md
+    - 管理员规则: rules/adminrule.md
   - 建设方案: roadmap.md
-  - 腐竹与支持: about-admin.md
+  - 需要安装的mod: mods.md
+  - 关于服主: about-admin.md
   - 常用指令: commands.md
   - 后记: epilogue.md
 
